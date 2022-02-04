@@ -30,7 +30,7 @@ const data = {
       altText: 'Secure Content',
       title: 'Secure Content',
       text:
-        'WCC uses the latest in security software and version control tools to ensure your projects are away from the prying eyes of hackers.',
+        'WCC uses the most up-to-date security protocols and version control tools to ensure your projects are away from the prying eyes of hackers.',
     },
   ],
 };

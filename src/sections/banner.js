@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Container, Box, Heading, Text, Image, Button } from 'theme-ui';
+import { Container, Box, Heading, Text, Image, Button, Link } from 'theme-ui';
 import BannerImg from 'assets/banner-thumb.png';
 import ShapeLeft from 'assets/shape-left.png';
 import ShapeRight from 'assets/shape-right.png';
@@ -11,16 +11,17 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as='h1' variant='heroPrimary'>
-            Software & Design Solutions
+            West Coast Creatives
           </Heading>
           <Text as='p' variant='heroSecondary'> 
-            Explore what WCC has created and contact us to find out if our scalable development teams are the right fit for your project.
+            Explore software and design solutions WCC has created for clients. Contact us to find out if our scalable development teams are the right fit for your project.
           </Text>
-          <Button variant='primary'>Explore</Button>
+          <Link href='https://www.matthewmcquain.com' target="_blank"><Button variant='primary'>Explore</Button></Link>
+          
         </Box>
         {/* this is how we set where the L/R blobs are positioned on the page. Use this area to display feature products */}
         <Box sx={styles.banner.imageBox}>
-          <Image src={BannerImg} alt='banner' />
+          <Image src={BannerImg} alt='These are little blobs of color to make give the website some pizzazz' />
         </Box>
       </Container>
     </section>

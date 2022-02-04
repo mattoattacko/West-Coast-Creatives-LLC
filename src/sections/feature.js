@@ -12,26 +12,26 @@ const data = [
   {
     id: 1,
     imgSrc: Performance,
-    altText: 'Fast Performance',
-    title: 'Fast Performance',
+    altText: 'Aim High',
+    title: 'Aim High',
     text:
-      'Find out what our dedicated team of code minions can do for your company',
+      'We strive to help companies across industries create optimal digital environments aligned with their technical capacity, business requirements, employees’ needs, and customers’ expectations.',
   },
   {
     id: 2,
     imgSrc: Partnership,
-    altText: 'Whats In The Box??',
-    title: 'Whats In The Box??',
+    altText: 'Necessity',
+    title: 'Necessity',
     text:
-      'Find out what our dedicated team of code minions can do for your company',
+      'WCC\'s software consultants assist our customers in selecting the right technology stacks for their solutions. Be it a programming language or a ready-to-use platform, we help businesses review technologies’ pros and cons before starting their projects.',
   },
   {
     id: 3,
     imgSrc: Subscription,
-    altText: 'Partnership Deals Available',
+    altText: 'Experience',
     title: 'Experience',
     text:
-      'West Coast Creative\'s code minions are are cut above the rest',
+      'With a combined 20+ years of software development experience, West Coast Creative\'s code minions are are cut above the rest. We have seen it all, and are ready to put that knowledge to use on your projects.',
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const data = [
     altText: 'Customer Support',
     title: 'Customer Support',
     text:
-      'Find out what our dedicated team of code minions can do for your company',
+      'We offer 24/7 support, ensuring your application will always have developers on hand to fix situations that may arise.',
   },
 ];
 
@@ -49,7 +49,7 @@ export default function Feature() {
       <Container>
         <SectionHeader
           slogan="Quality Features"
-          title="Look at all 'dem features!"
+          title="Knowledge & experience helps get the job done."
         />
 
         <Grid sx={styles.grid}>

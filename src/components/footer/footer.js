@@ -10,7 +10,7 @@ export default function Footer() {
       <Container>
         <Box sx={styles.footer.footerBottomArea}>
           <Link>
-            <Image sx={styles.img} src={WCC_logo_V3_small} alt="Our Logo" />
+            <Image sx={styles.img} src={WCC_logo_V3_small} alt="West Coast Creatives logo" />
           </Link>
           <Box sx={styles.footer.menus}>
             <nav>
@@ -26,7 +26,7 @@ export default function Footer() {
             </nav>
           </Box>
           <Text sx={styles.footer.copyright}>
-            Copyright {new Date().getFullYear()} West Coast Creatives, LLC.
+            © {new Date().getFullYear()} West Coast Creatives, LLC.
           </Text>
         </Box>
       </Container>

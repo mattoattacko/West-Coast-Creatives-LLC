@@ -12,25 +12,25 @@ const data = [
     id: 1,
     title: 'Full Stack Web Applications',
     text:
-      'Find out what our dedicated team of code minions can do for your company',
+      'From local small businesses to large corporations, the development team at West Coast Creatives will help your application standout in a crowded digital landscape.',
   },
   {
     id: 2,
     title: 'On-Boarding Web Designers',
     text:
-      'Find out what our dedicated team of code minions can do for your company.',
+      'Let us handle the tedious and repetitive tasks of onboarding new employees. WCC\'s consultants will help you create a welcoming and inviting experience for your new team.',
   },
   {
     id: 3,
     title: 'Web Hosting',
     text:
-      'Find out what our dedicated team of code minions can do for your company',
+      'WCC can assist in hosting your website on our secure and reliable servers. We can also help migrate your website to a new server.',
   },
   {
     id: 4,
-    title: 'IT Services',
+    title: 'Design Consulting',
     text:
-      'Find out what our dedicated team of code minions can do for your company',
+      'You might already have an application design in mind, but are unsure how to bring your vision into the real world. Let us help you create a website that is both visually appealing and user-friendly.',
   },
 ];
 

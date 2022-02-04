@@ -10,7 +10,7 @@ import menuItems from './header.data';
 
 const social = [ 
   {
-    path: '/',
+    path: 'https://www.upwork.com/freelancers/~01f6206ecf6bf14e26?viewMode=1',
     icon: <SiUpwork />,
   }, 
   {
@@ -18,7 +18,7 @@ const social = [
     icon: <FaLinkedin />,
   },
   {
-    path: '/',
+    path: 'https://github.com/mattoattacko',
     icon: <FaGithub />,
   },
 ];

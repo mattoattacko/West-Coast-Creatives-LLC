@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Container, Flex, Button } from 'theme-ui';
+import { jsx, Container, Flex, Button, NavLink } from 'theme-ui';
 import { keyframes } from '@emotion/core';
 import { Link } from 'react-scroll';
 import Logo from 'components/logo';
@@ -28,13 +28,14 @@ export default function Header({ className }) {
               </Link>
             ))}
           </Flex>
+          <NavLink href='https://www.upwork.com/freelancers/~01f6206ecf6bf14e26?' target='_blank'>
           <Button 
             className="donate__btn" 
             variant='secondary' 
             aria-label='Get Started'
             >
               Get Started
-          </Button>
+          </Button></NavLink>
           <MobileDrawer />
         </Container>
       </header>

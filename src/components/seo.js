@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 
 export default function SEO({
-  description = 'West Coast Creatives LLC software development',
+  description = 'West Coast Creatives LLC software development consultants',
   author = 'Matthew McQuain',
   meta,
   title = 'West Coast Creatives title',
